@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-display: bold;
+ 
+}
+table{
+    border: 2%;
+    border-style: solid;
+    border-color: black;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 3%;
+    
+}
+tr,td{
+    text-align: center;
+    padding: 1%;
+    border: 2px solid black;
+}
+#outer{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column1{
+    background-color:rgb(255, 103, 123);
+}
+.column2{
+    background-color: rgba(155, 50, 204, 0.897);
+}
+.column3{
+background-color: rgb(94, 86, 211);
+}
+.column4{
+  background-color:green;
+}
+.column5{
+    background-color: rgb(238, 241, 21);
+}
+.column6{
+    background-color: rgba(170, 84, 4, 0.945);
+}
+.column7{
+    background-color: rgb(228, 152, 39);
+}
+.column8{
+    background-color: pink;
+}
+.column9{
+background-color: rgb(187, 235, 235);
+}
