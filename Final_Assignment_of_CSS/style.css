@@ -1,0 +1,381 @@
+#header {
+    display: flex;
+    justify-content: space-between;
+    height: 80px
+}
+
+.head {
+    background-color: black;
+    height: 30px
+}
+
+.nav {
+    padding: 20px;
+    margin: 12px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+}
+
+a {
+    padding: 10px;
+    color: black;
+    font-size: larger;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    text-decoration-color: #eecb2eef;
+}
+
+#sec1 {
+    text-align: center;
+    color: white;
+    background-color: hsla(98, 95%, 26%, 0.937);
+    height: 300px;
+    padding: 130px;
+    font-size: x-large;
+}
+
+button {
+    color: black;
+    background-color: hwb(36 1% 0%);
+    border-width: 1px;
+    border-color: #dbb405ef;
+    border-radius: 6%;
+    width: 130px;
+    height: 50px;
+    padding: 3px;
+    font-size: medium;
+    font-weight: bold;
+
+}
+
+.advantage {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 36px;
+    gap: 10px;
+    height: 100px;
+
+}
+
+.para {
+    text-align: center;
+    font-size: 20px;
+    color: gray;
+
+}
+
+.img {
+    border-radius: 100px;
+    background-color: rgb(236, 232, 232);
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+#bulb {
+    padding: 1000px;
+}
+
+.picLine {
+    display: flex;
+    margin: 40px;
+}
+
+div>p {
+    color: gray;
+    font-size: 20px;
+}
+
+.aboutclass {
+    display: flex;
+    background-color: #ebeaea;
+    font-size: 30px;
+    height: 550px;
+}
+
+.heading {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+
+.image1 {
+    display: flex;
+    justify-content: end;
+    margin-left: 70px;
+}
+
+.para1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.graphic {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: #e0dfdaef;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    display: inline-block;
+    margin-top: 50px;
+    margin: 30px
+}
+
+.img2 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(255, 187, 86);
+    margin-left: 60px;
+    position: absolute;
+    top: -25px;
+    left: 20px;
+
+}
+
+.img2 img {
+    align-items: center;
+    width: 70px;
+    padding: 5px;
+    padding-bottom: 15px;
+}
+
+.graphic h1 {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.graphic p {
+    margin: 6px;
+}
+
+.graphic a {
+    text-align: center;
+    font-size: 25px;
+    color: green;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+.graphic a:hover {
+    text-decoration: underline;
+}
+
+.sec5 {
+    background-color: black;
+}
+
+.img3 {
+    margin-top: 30px;
+}
+
+.imageEdit {
+    width: 200px;
+    border-style: solid;
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+    margin-top: 30px
+}
+
+.sec6 {
+    display: flex;
+    margin: 10px
+}
+
+.imageEdit img {
+    align-items: center;
+    padding: 30px
+}
+
+.imageEdit h4 {
+    font-size: large;
+}
+
+.sec7 {
+    background-color: #e0dfdaef;
+}
+
+.row1 {
+    display: flex;
+    margin: 15px;
+    padding: 10px;
+}
+
+.square-text {
+    background-color: white;
+    border-radius: 100px;
+    height: 150px;
+    width: 150px;
+}
+
+.square-text img {
+    margin: 20px
+}
+
+.mainDiv {
+    display: flex;
+}
+
+.content {
+    width: 400px;
+    line-height: 20px;
+
+}
+
+.circles {
+    display: flex;
+    margin: 20px;
+    padding: 30px;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.circle-1 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-color: yellow;
+    border-style: solid;
+    justify-items: center;
+    border: 5px solid yellow;
+    border-left-width: 20px;
+    border-right-width: 1px;
+    color: yellow;
+
+}
+
+.circle-1 span {
+    font-weight: bold;
+    margin-left: 3px;
+    font-size: 36px;
+}
+
+.circle-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-color: red;
+    border-style: solid;
+    justify-items: center;
+    border: 5px solid red;
+    border-left-width: 20px;
+    border-right-width: 1px;
+    color: red;
+}
+
+.circle-2 span {
+    font-weight: bold;
+    margin-left: 3px;
+    font-size: 36px;
+}
+
+.circle-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-color: green;
+    border-style: solid;
+    justify-items: center;
+    border: 5px solid green;
+    border-left-width: 20px;
+    border-right-width: 1px;
+    color: green;
+}
+
+.circle-3 span {
+    font-weight: bold;
+    margin-left: 3px;
+    font-size: 36px;
+}
+
+.circle-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-color: black;
+    border-style: solid;
+    justify-items: center;
+    border: 5px solid black;
+    border-left-width: 30px;
+    border-right-width: 1px;
+    color: black;
+}
+
+.circle-4 span {
+    font-weight: bold;
+    margin-left: 3px;
+    font-size: 36px;
+}
+
+.contact {
+    background-color: green;
+    height: 300px
+}
+
+.info {
+    margin-top: 10px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px
+}
+
+.location {
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+}
+
+.detail {
+    margin: 20px;
+    gap: 40px
+}
+
+.detail span {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer {
+    background-color: green;
+}
+
+.end {
+    display: flex;
+    margin: 30px;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+}
